@@ -1115,7 +1115,7 @@ h1,h2,h3,h4,h5,h6 {
       padding: 80px 0;
       border-bottom: 40px solid #0f0f0f;
   }
-
+  .comparecardArea .campare-video{ top: 119px;}
 }
 
 @media (max-width: 1499px) {
@@ -1188,7 +1188,7 @@ h1,h2,h3,h4,h5,h6 {
   .comparecardArea .cards > img {
       max-width: 450px;
   }
-
+  .comparecardArea .campare-video{ top: 88px;}
 }
 
 @media (max-width: 1399px) {
