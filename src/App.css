@@ -496,7 +496,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .categoryArea .catLink li {
   border: 1.2px solid;
-  border-image-slice: 1;
+  border-image-slice: 4;
   border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(21, 21, 21, 0.4) 100%);
   font-size: 0.711rem;
   font-family: 'Poppins-SemiBold';
@@ -1065,18 +1065,246 @@ h1,h2,h3,h4,h5,h6 {
   float: right;
 }
 
+
+/* Responsive */
 @media (max-width: 1600px) {
-  .iconboxArea h3 {
-    font-size: 1.8rem;}
-  .bannerArea h1 {
-    font-size: 3.556rem;}
-    .iconboxArea p {
-      font-size: 1rem;}
-      .comparecardArea h2 {
-        font-size: 12rem;}
+    
+  html {
+      font-size: 16px;
+  }
+
+  .custom-btn span {
+      min-height: 64px;
+  }
+
+  .headerWrapper .main-menu li {
+      margin: 0 30px;
+  }
+
+  .bannerArea {
+      min-height: 765px;
+  }
+
+  .bannerArea .video-hero {
+      margin: 0 -1136px 0 0;
+      width: 1500px;
+  }
+
+  .iconboxArea .image img {
+      max-width: 180px;
+  }
+
+  .categoryArea {
+      padding: 125px 0 40px 0;
+  }
+
+  .comparecardArea .cards {
+      margin-top: -70px;
+  }
+
+  .comparecardArea .campare-video::after {
+      background: #0f0f0f url(../public/images/lines.png) no-repeat center -158px;
+  }
+
+  .aboutArea .avatar {
+      width: 590px;
+      bottom: 384px;
+  }
+
+  .footerWrapper {
+      padding: 80px 0;
+      border-bottom: 40px solid #0f0f0f;
+  }
+
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1499px) {
+  
+  html {
+      font-size: 14px;
+  }
 
-  #root{ display: none;}
+  .headerWrapper .main-menu li ul {
+      min-width: 250px;
+      top: 51px;
+      padding: 25px;
+  }
+
+  .bannerArea .card {
+      margin: 0 30px 0 0;
+  }
+
+  .bannerArea .text {
+      margin: 0 0 0 80px;
+  }
+
+  .bannerArea {
+      min-height: 735px;
+  }
+
+  .comparecardArea .cards {
+      margin-top: -63px;
+  }
+
+  .comparecardArea .campare-video {
+      height: 500px;
+  }
+
+  .loungeFinderArea {
+      padding: 55px 0 100px;
+  }
+
+  .loungeFinderArea .custom-btn {
+      min-width: 288px;
+  }
+
+  .loungeFinderArea .lounges .location .image {
+      width: 100px;
+      height: 100px;
+  }
+
+  .loungeFinderArea .lounges .location .text {
+      width: calc(100% - 125px);
+  }
+
+  .loungeFinderArea .lounges {
+      gap: 85px;
+  }
+
+  .loungeFinderArea .lounges .item {
+      width: calc(33.33% - 60px);
+  }
+
+  .aboutArea .avatar {
+      width: 560px;
+      bottom: 317px;
+  }
+
+  .aboutArea video {
+      width: 1500px;
+      height: 600px;
+  }
+
+  .comparecardArea .cards > img {
+      max-width: 450px;
+  }
+
+}
+
+@media (max-width: 1399px) {
+  
+  html {
+      font-size: 12px;
+  }
+
+  .headerWrapper .main-menu li ul {
+      min-width: 220px;
+      top: 44px;
+      padding: 20px;
+  }
+
+  .headerWrapper .sign-in .custom-btn span {
+      min-height: 36px;
+  }
+
+  .headerWrapper .sign-in .user {
+      width: 50px;
+      height: 50px;
+  }
+
+  .bannerArea .video-hero {
+      margin: 0 -1016px 0 0;
+      width: 1350px;
+  }
+
+  .bannerArea {
+      min-height: 625px;
+      padding: 70px 0 0 0;
+      border-radius: 0px 0px 80px 80px;
+  }
+
+  .custom-btn span {
+      min-height: 50px;
+  }
+
+  .iconboxArea .image {
+      height: 188px;
+  }
+
+  .iconboxArea .image img {
+      max-width: 150px;
+  }
+
+  .cardArea .container {
+      gap: 25px;
+  }
+
+  .cardArea .card {
+      width: calc(25% - 20px);
+  }
+
+  .cardArea h3 {
+      top: 90px;
+      padding: 0 25px;
+  }
+
+  .categoryArea {
+      padding: 85px 0 30px 0;
+  }
+
+  .categoryArea .catLink a {
+      padding: 10px 24px;
+  }
+
+  .categoryArea .catrow {
+      gap: 100px;
+  }
+
+  .categoryArea .item {
+      width: calc(33.33% - 68px);
+  }
+
+  .cardArea {
+      padding: 25px 0 50px 0;
+  }
+
+  .comparecardArea .cards > img {
+      max-width: 400px;
+  }
+
+  .comparecardArea .multiC img {
+      max-width: 240px;
+  }
+
+  .comparecardArea .cards {
+      margin-top: -54px;
+  }
+
+  .comparecardArea .campare-video::before {
+      height: 241px;
+  }
+
+  .comparecardArea .campare-video::after {
+      height: 241px;
+      bottom: -101px;
+  }
+
+  .comparecardArea .compare-btn {
+      width: 284px;
+      min-height: 65px;
+  }
+
+  .loungeFinderArea .custom-btn {
+      min-width: 238px;
+  }
+
+  .loungeFinderArea .lounges .location {
+      margin-bottom: 45px;
+  }
+
+  .aboutArea .avatar {
+      width: 540px;
+      bottom: 317px;
+  }
+
 }
