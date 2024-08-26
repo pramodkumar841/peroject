@@ -6,7 +6,7 @@ const HeroBanner = () => {
    <div className='BannerArea'>
     <div className='bannerContent' >
         <div className='heading'>
-            <h2>We find the Best  0000
+            <h2>We find the Best 21254464641
             Credit Cards for You</h2>
         </div>
     </div>
