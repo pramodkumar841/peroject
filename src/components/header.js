@@ -1,21 +1,22 @@
 import React from 'react'
 import NavBar from './navBar'
 import SignIn from './signIn'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
     return (
         <>
-            <header className='header'>
-                <div className='container'>
-                    <div className='itemBox algnflexArea disflexArea' >
-                        <div className='logo'>
-                            <img src='/images/logo.png' />
-                        </div>    
-                        <NavBar/>    
-                        <SignIn/>                
-                    </div>
+            <div className="headerWrapper">
+                <div className="container">
+                    <div className="logo-main">
+                        <Link to="/">
+                            <img src="images/BANKKARO-log.svg" alt="Site Logo"/>
+                        </Link>
+                    </div>                  
+                   <NavBar/>              
+                   <SignIn/>
                 </div>
-            </header>
+            </div>
         </>
     )
 }
