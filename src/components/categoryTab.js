@@ -14,7 +14,7 @@ const tabItems = [
     {
         smallHeading: "50% Cashback",
         text: "High cashback on online and offline spends",
-        src: "/images/cat-img-1.png",
+        src: "/images/cat-img-2.png",
         heading: "HDFC Regalia",
         tag1: "Travel",
         tag2: "Online Shopping"
@@ -22,7 +22,7 @@ const tabItems = [
       {
         smallHeading: "50% Cashback",
         text: "High cashback on online and offline spends",
-        src: "/images/cat-img-1.png",
+        src: "/images/cat-img-3.png",
         heading: "HDFC Regalia",
         tag1: "Travel",
         tag2: "Online Shopping"
