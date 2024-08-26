@@ -1,18 +1,21 @@
 import React from 'react'
+import VideoSec from './videoSec'
+import { Link } from 'react-router-dom'
+import BannerContent from './bannerContent'
 
 const HeroBanner = () => {
   return (
-   <>
-   <div className='BannerArea'>
-    <div className='bannerContent' >
-        <div className='heading'>
-            <h2>We find the Best 21254464641
-            Credit Cards for You</h2>
+    <>
+      <div className="bannerArea">
+        <div className="container">     
+          <BannerContent/>   
+          <div className="card">
+            <img src="/images/card-1.png" alt="image" />
+          </div>
         </div>
-    </div>
-   <video src="/images/hero.mp4" autoPlay loop muted  />
-   </div>
-   </>
+        <VideoSec />
+      </div>
+    </>
   )
 }
 
