@@ -229,7 +229,7 @@ h1,h2,h3,h4,h5,h6 {
   align-items: center;
   gap: 10px;
 }
-
+.headerWrapper .main-menu li a:hover{ opacity: .8;} 
 .headerWrapper .main-menu li:hover ul {
   display: block;
 }
@@ -278,7 +278,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .headerWrapper .sign-in .custom-btn span {
-  min-height: 42px;
+  min-height: 44px;
   padding: 0 35px 0 25px;
   font-size: 1.333rem;
 }
@@ -1063,4 +1063,20 @@ h1,h2,h3,h4,h5,h6 {
   padding: 20px 36px;
   width: 288px;
   float: right;
+}
+
+@media (max-width: 1600px) {
+  .iconboxArea h3 {
+    font-size: 1.8rem;}
+  .bannerArea h1 {
+    font-size: 3.556rem;}
+    .iconboxArea p {
+      font-size: 1rem;}
+      .comparecardArea h2 {
+        font-size: 12rem;}
+}
+
+@media (max-width: 991px) {
+
+  #root{ display: none;}
 }

@@ -22,8 +22,9 @@ const Home = () => {
       <CompareCardsSec/>
       <LoungeFinder/>
       <AboutUsSec/>
-      <Footer/>
       </div>
+      <Footer/>
+   
     </>
   )
 }
